@@ -10,6 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EtFood">
         <activity
+            android:name=".Menu"
+            android:exported="false"
+            android:label="@string/title_activity_menu"
+            android:theme="@style/Theme.EtFood.NoActionBar" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
